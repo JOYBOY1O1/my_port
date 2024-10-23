@@ -4,8 +4,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <ScrollProvider>
-      <Hero />
-    </ScrollProvider>
+    <main className="relative bg-black">
+      <ScrollProvider>
+        <Hero />
+      </ScrollProvider>
+    </main>
   );
 }
