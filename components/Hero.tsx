@@ -65,7 +65,7 @@ export default function Hero(): ReactElement {
           </div>
         </div>
       </div>
-      <canvas className="bg-skin-base pointer-events-none absolute inset-0" id="canvas"></canvas>
+      <canvas className="bg-skin-base bg-black pointer-events-none absolute inset-0" id="canvas"></canvas>
     </div>
   );
 }
